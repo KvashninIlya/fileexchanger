@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inder&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="jquery.js" defer></script>
+    <script src="scripts.js" defer></script>
+    <title>Document</title>
+</head>
+<body class="preload">
+    <div class="main">
+        <div class="header">
+            <div class="logo">FileExchanger</div>
+            <ul class="menu">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="big-text">Нажмите, чтобы загрузить файл:</div>
+        <a class="button" href="#">Загрузить</a>
+        <div class="progress-bar">
+            <div class="progress-text-container">
+                <p class="progress-text">86%</p>
+            </div>
+            <div class="progress-fill"></div>
+        </div>
+        <div class="line"></div>
+        <div class="table">
+            <div class="table-column1">
+                <p class="table-row">Имя:</p>
+                <p class="table-row">Размер:</p>
+                <p class="table-row">Хэш-сумма(SHA-256):</p>
+                <p class="table-row">Время загрузки:</p>
+                <p class="table-row">Короткая ссылка:</p>
+                <p class="table-row">Постоянная ссылка:</p>
+            </div>
+            <div class="table-column2">
+                <p class="table-row">examplearchive.zip</p>
+                <p class="table-row">748MB</p>
+                <div class="table-row table-row-complex">
+                    <input readonly class="table-row-complex-text" value="9210c997bbdf7fcd6421c04bd17491100ce8ad64794a96dda329b1a20c6c6f38"></input>
+                    <img src="images/copy.png" alt="copy" class="table-row-complex-copy">
+                </div>
+                <p class="table-row">19:59, 27 октября 2035 года</p>
+
+                <div class="table-row table-row-complex">
+                    <input readonly class="table-row-complex-text" value="https://fileexchanger.com/h3eb778c"></input>
+                    <img src="images/copy.png" alt="copy" class="table-row-complex-copy">
+                </div>
+
+                <div class="table-row table-row-complex">
+                    <input readonly class="table-row-complex-text" value="https://fileexchanger.com/files/9210c997_examplearchive.zip"></input>
+                    <img src="images/copy.png" alt="copy" class="table-row-complex-copy">
+                </div>
+
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="footer">
+            2021 © FileExchanger. Kvashnin Ilya Andreevich, kvashnin.ilya.andreevich@gmail.com
+        </div>
+        <div class="line"></div>
+    </div>
+</body>
+</html>
